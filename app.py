@@ -14,8 +14,8 @@ if 'df_experiment_results' not in st.session_state:
 st.header('Tossing a Coin')
 
 # Creates a line chart 
-df = pd.DataFrame({'value': [0.5]}, index=[0])
-chart = st.line_chart(df)
+# df = pd.DataFrame({'value': [0.5]}, index=[0])
+chart = st.line_chart()
 
 # Fuction to test the coin flip and add probability to the chart
 def toss_coin(n): 
